@@ -63,5 +63,7 @@ myForm.addEventListener("submit",function(event){
 
     tr1.append(td1,td2,td3,td4,td5,td6,td7,td8)
     body.append(tr1)
-    
+    td8.style.backgroundColor = "red"
+    td8.style.border = "none"
+    td8.style.marginTop = "6px"
 })
